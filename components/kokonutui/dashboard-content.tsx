@@ -28,9 +28,6 @@ export default function DashboardContent() {
     <div className="flex-1 space-y-4 p-4 md:p-8 pt-6">
       <div className="flex items-center justify-between space-y-2">
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
-        <div className="flex items-center space-x-2">
-          <span className="text-sm text-muted-foreground">Last updated: {new Date().toLocaleDateString()}</span>
-        </div>
       </div>
 
       <Tabs defaultValue="overview" className="space-y-4">
@@ -171,17 +168,16 @@ export default function DashboardContent() {
                               </div>
                               <div className="h-2 bg-muted rounded-full overflow-hidden">
                                 <div
-                                  className={`h-full rounded-full ${
-                                    index === 0
-                                      ? "bg-primary"
-                                      : index === 1
-                                        ? "bg-blue-500"
-                                        : index === 2
-                                          ? "bg-yellow-500"
-                                          : index === 3
-                                            ? "bg-purple-500"
-                                            : "bg-green-500"
-                                  }`}
+                                  className={`h-full rounded-full ${index === 0
+                                    ? "bg-primary"
+                                    : index === 1
+                                      ? "bg-blue-500"
+                                      : index === 2
+                                        ? "bg-yellow-500"
+                                        : index === 3
+                                          ? "bg-purple-500"
+                                          : "bg-green-500"
+                                    }`}
                                   style={{ width: `${percentage}%` }}
                                 />
                               </div>

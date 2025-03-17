@@ -9,9 +9,8 @@ import AuthGuard from "@/components/auth-guard"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "KokonutUI Dashboard",
-  description: "A modern financial dashboard with theme switching and data persistence",
-    generator: 'v0.dev'
+  title: "Money Managment Dashboard",
+  description: "A modern financial dashboard with theme switching and data persistence"
 }
 
 export default function RootLayout({

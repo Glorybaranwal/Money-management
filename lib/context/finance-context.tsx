@@ -12,8 +12,8 @@ const initialState: FinancialState = {
   transactions: [],
   goals: [],
   profile: {
-    name: "Eugene An",
-    role: "Prompt Engineer",
+    name: "User",
+    role: "Architect",
     avatar: "https://ferf1mheo22r9ira.public.blob.vercel-storage.com/avatar-01-n0x8HFv8EUetf9z6ht0wScJKoTHqf8.png",
     subscription: "Free Trial",
   },
